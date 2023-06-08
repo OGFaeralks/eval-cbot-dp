@@ -1,0 +1,108 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: thanks
+  examples: |
+    - Thank you
+    - Thanks a lot
+    - I appreciate your help
+- intent: complaint
+  examples: |
+    - I'm having trouble with your product
+    - Your service is unacceptable
+    - I want to file a complaint
+- intent: inquiry
+  examples: |
+    - Can you provide information about your pricing plans?
+    - How do I cancel my subscription?
+    - What are your working hours?
+- intent: support
+  examples: |
+    - I need help with troubleshooting
+    - Can you assist me with technical issues?
+    - I'm experiencing an error
+- intent: feedback
+  examples: |
+    - Your chatbot is really helpful!
+    - I think your customer support could be improved
+    - The response time is too slow
+- intent: irrelevant
+  examples: |
+    - Tell me a joke
+    - What's the weather like today?
+- intent: covid_symptoms
+  examples: |
+    - I have a fever
+    - I'm experiencing cough and shortness of breath
+    - I feel fatigued and have body aches
+    - I have a headache and loss of taste
+    - My throat is sore and I have congestion
+    - I'm feeling nauseous and have diarrhea
+    - I have a runny nose
+- intent: irrelevant_symptoms
+  examples: |
+    - I have a rash on my arm
+    - I twisted my ankle and it hurts
+    - I have a toothache
+    - My stomach is upset
+    - I have a sunburn  
+- intent: covid_info
+  examples: |
+    - What are the common symptoms of COVID-19?
+    - How does COVID-19 spread?
+    - What should I do if I think I have COVID-19?
+    - Are there any preventive measures for COVID-19?
+    - Should I test for covid
+    - How can I tell I have covid?
+    - should I test for COVID-19?
+

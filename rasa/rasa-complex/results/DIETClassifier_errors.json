@@ -1,0 +1,1932 @@
+[
+  {
+    "text": "Hello doctor,Last night I was getting chills, feeling more cold than usual and lightheaded and a lot of burping. Maybe like every 30 minutes or less or so feel more chills running down my body and chest feeling bit weird like I am starting having trouble breathing then goes back to normal and repeats, with weird feeling like chills down my left and right lungs or left and right upper chest. Also, my heart was pumping fast. Also, some minor coughs were there since seven days ago, still here. I have white mucus and have not gotten yellow yet.I took medicines yesterday but today I got severe cold and flu medicine with a pain reliever, the chills did not go away. Then today, I called the doctor on the phone and told him what happen last night and the same thing happened this morning too. I had minor coughs, feeling lightheaded, feel like maybe cannot breathe or something, and a lot of burping. I told him the burping issue was going on for at least two years, but somehow this time I am feeling lightheaded. He just gives Pepcid, a try maybe GERD. I ate that today still feeling chills now and still burping a lot.Right now, still some chills on arms, with breathing issue or something makes my chest feel weird and arm sometimes. So, should I be worried? I do not think I have a fever now but do not feel hot on the forehead? Was it GERD or flu, it is Coronavirus or something else? I hope it is not Coronavirus.I am 21 years old and weigh around 110-115 kg.",
+    "entities": [
+      {
+        "start": 247,
+        "end": 264,
+        "value": "trouble breathing",
+        "entity": "symptom"
+      },
+      {
+        "start": 438,
+        "end": 450,
+        "value": "minor coughs",
+        "entity": "symptom"
+      },
+      {
+        "start": 503,
+        "end": 514,
+        "value": "white mucus",
+        "entity": "symptom"
+      },
+      {
+        "start": 801,
+        "end": 813,
+        "value": "minor coughs",
+        "entity": "symptom"
+      },
+      {
+        "start": 1289,
+        "end": 1294,
+        "value": "fever",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.6311031579971313,
+        "value": "chills",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 197,
+        "end": 202,
+        "confidence_entity": 0.8747506737709045,
+        "value": "chest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 247,
+        "end": 264,
+        "confidence_entity": 0.965099036693573,
+        "value": "trouble breathing",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 327,
+        "end": 333,
+        "confidence_entity": 0.5069817900657654,
+        "value": "chills",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 387,
+        "end": 392,
+        "confidence_entity": 0.4801120460033417,
+        "value": "chest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 438,
+        "end": 450,
+        "confidence_entity": 0.9781602025032043,
+        "value": "minor coughs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 503,
+        "end": 514,
+        "confidence_entity": 0.8713563680648804,
+        "value": "white mucus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 589,
+        "end": 595,
+        "confidence_entity": 0.7082355618476868,
+        "value": "severe",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 762,
+        "end": 767,
+        "confidence_entity": 0.6240217685699463,
+        "value": "thing",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 801,
+        "end": 813,
+        "confidence_entity": 0.9907083511352539,
+        "value": "minor coughs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 1289,
+        "end": 1294,
+        "confidence_entity": 0.7693344354629517,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have covid 19 symptoms?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.919968843460083,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I was given amoxycillin for a chest infection and did not improve after 48 hours, therefore I went back to the GP who then gave me Clarythmomycin as it resulted in pneumonia. I have been off work for 3 weeks now and feel completely washed out and exhausted. I had a chest x-ray which was clear, but was given an inhaler temporarily as I was out of breath and wheezy. I still have an incredible amount of phlegm which has now changed from brown to sometimes green to clear. Unfortunately, for last 3 days, my trachea is extremely bruised to touch and feel as if someone is pressing my windpipe. Although my tonsils aren t swollen, my ear hurts deep inside. I have had to start taking paracetamol again this week as feel weak, wobbly and feel as if I am going backwards again instead of improving. I am 45 years old. Non-smoker.This is the 3rd time I have had pneumonia in 18 years. I am reasonably fit and healthy, and I don t suffer from colds normally, but whenever I come down with something, I seem to suffer with it. How long does it take to get back to normal? Are the trachea symptoms part of the initial pneumonia symptoms or would I need to see the GP again. I am feeling extremely fed up of generally feeling unwell. I am taking a tonic (Metatone) and drinking and eating healthily. Basically, is it normal to feel this unwell for so long.",
+    "entities": [
+      {
+        "start": 164,
+        "end": 173,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 858,
+        "end": 867,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 1111,
+        "end": 1120,
+        "value": "pneumonia",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 164,
+        "end": 173,
+        "confidence_entity": 0.9868658185005188,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 858,
+        "end": 867,
+        "confidence_entity": 0.9801059365272522,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 1082,
+        "end": 1090,
+        "confidence_entity": 0.6839125752449036,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 1111,
+        "end": 1120,
+        "confidence_entity": 0.9769177436828613,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 1121,
+        "end": 1129,
+        "confidence_entity": 0.6021386981010437,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My 62 year old sister is currently hospitalized for pneumonia that was dx after foot surgery related to a fall. She had Breast CA 8 years ago. Currently taking Tamoxifin. BRCA II gene. 3 sisters also with gene mutation and hx of breast CA. Youngest sister passed away from recurrance of Breast CA. (Mets to lungs, liver and bones.) Hospital ruled out blood clot in lung. Dx with pneumonia. Should CT scan be done since she has has a long standing cough and multiple bouts of pneumonia.",
+    "entities": [
+      {
+        "start": 120,
+        "end": 126,
+        "value": "Breast",
+        "entity": "symptom"
+      },
+      {
+        "start": 287,
+        "end": 293,
+        "value": "Breast",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 120,
+        "end": 126,
+        "confidence_entity": 0.9531547427177429,
+        "value": "Breast",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 229,
+        "end": 235,
+        "confidence_entity": 0.917533814907074,
+        "value": "Breast",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 287,
+        "end": 293,
+        "confidence_entity": 0.9750603437423706,
+        "value": "Breast",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hi gud day doc.i had this right paracardiac pneumonia last nov.27 2013..and i undergone treatment for 2 weeks... after that.im not able to comeback in the hospital for further check up...about my illness....but every now and then im suffering backpain and chestpain...but i also had an asthmatic condition...how can you help me ...",
+    "entities": [
+      {
+        "start": 26,
+        "end": 53,
+        "value": "right paracardiac pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 286,
+        "end": 305,
+        "value": "asthmatic condition",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 26,
+        "end": 53,
+        "confidence_entity": 0.7163462042808533,
+        "value": "right paracardiac pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am a 76 year old female non smoker and non drinker I drink 1 cup of decaf a day . in the past year I have had 3 or 4 bouts of pneumonia one was infiltrated just got bronchitis I have have been treated with Z pack and amoxicillin to taking blood thinners due to Atrial Fibulation. I have a pacemaker I had a pneumonia shot in 2011 .one month after taking the shot I got pneumonia. My brother who is 2 years older had the very same reaction. Our parents were very heavy smoker can this be the cause of all my problems now.",
+    "entities": [
+      {
+        "start": 309,
+        "end": 323,
+        "value": "pneumonia shot",
+        "entity": "symptom"
+      },
+      {
+        "start": 432,
+        "end": 440,
+        "value": "reaction",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 319,
+        "end": 323,
+        "confidence_entity": 0.9789353013038635,
+        "value": "shot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 360,
+        "end": 364,
+        "confidence_entity": 0.5289426445960999,
+        "value": "shot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 432,
+        "end": 440,
+        "confidence_entity": 0.797271728515625,
+        "value": "reaction",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "How much will this cost? I have had pneumonia 8 time last year. Not 1 specialist could find the bacteria causing this. By December of that year I almost passed away. I had just been dismissed by a hospital and sent home, and 1 hour layer I could barely breathe. I was filling up with fluid and foamy blood was coming out. The paramedics saved me and took me to another hospital The drs. found a serious heart condition, still waiting for open heart surgery. I fill up to my bronchials with fluid every few weeks, it bubbles up and I can hear gurgling. I have no lung problems, such as copd, or emphasyma. What can I do.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 45,
+        "value": "pneumonia",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 36,
+        "end": 45,
+        "confidence_entity": 0.9467700719833374,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 585,
+        "end": 589,
+        "confidence_entity": 0.9867557287216187,
+        "value": "COPD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have been sick for a week with what I thought was a head cold. My temp keeps going up and I m having trouble breathing. Sinuses are clear, ears are ringing but semi clear but hurt when swallowing along with sore throat. Non productive cough but lungs feel heavy and full. Could this be pneumonia I have developed? I have at it before. I must tell you that I do have asthma. Thank you!",
+    "entities": [
+      {
+        "start": 368,
+        "end": 374,
+        "value": "asthma",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.5622493028640747,
+        "value": "cold",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 368,
+        "end": 374,
+        "confidence_entity": 0.994976818561554,
+        "value": "asthma",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am 63 years old female a year ago I had bacterial pneumonia and since then I am not feeling normal, also pulmonologist told me I have COPD , I am not smoking since pneumonia have SPIRIVA once a day and ADVAIR 500 twice /day, don feel that is doing any good anymore is there any other medicine that may help me to function more normal? Apparently ANORO ELLIPTA was approved by FDA but is not on Canadian market yet, thank you Zofia.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 61,
+        "value": "bacterial pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 136,
+        "end": 140,
+        "value": "COPD",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 42,
+        "end": 61,
+        "confidence_entity": 0.5707446336746216,
+        "value": "bacterial pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 136,
+        "end": 140,
+        "confidence_entity": 0.9819790124893188,
+        "value": "COPD",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 166,
+        "end": 175,
+        "confidence_entity": 0.4824039936065674,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I was swimming in a pool on 2/15 and I slipped and went under the water unexpectedly and I wound up choking quite badly on some water.  I couldn't catch my breath and I felt like I had water in my lung that I couldn't expel with coughing.  Yesterday I began having a hacking cough and a sore throat (fells like my throats on fire).  Today I feel even worse, my cough is worse and sounds more \"cruddy\" and my throat still hurts, my head is pounding and my body is starting to ache.  Could I be developing aspiration pneumonia?",
+    "entities": [
+      {
+        "start": 66,
+        "end": 71,
+        "value": "water",
+        "entity": "symptom"
+      },
+      {
+        "start": 128,
+        "end": 133,
+        "value": "water",
+        "entity": "symptom"
+      },
+      {
+        "start": 185,
+        "end": 190,
+        "value": "water",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 66,
+        "end": 71,
+        "confidence_entity": 0.9986544847488403,
+        "value": "water",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 128,
+        "end": 133,
+        "confidence_entity": 0.9981158971786499,
+        "value": "water",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 185,
+        "end": 190,
+        "confidence_entity": 0.9976111650466919,
+        "value": "water",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 475,
+        "end": 479,
+        "confidence_entity": 0.730442464351654,
+        "value": "ache",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have pneumonia and I am on Levaquin with one day left on my cycle but i feel really crappy, tired, short tempered, headache, and my temperature is 97 do I have anything to worry about? Before taking the Levaquin my temperature was around 102.4 and normal for me is 98.6 on the money.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 174,
+        "end": 179,
+        "value": "worry",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.9823611974716187,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 117,
+        "end": 125,
+        "confidence_entity": 0.9617069363594055,
+        "value": "headache",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 174,
+        "end": 179,
+        "confidence_entity": 0.9996438026428223,
+        "value": "worry",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My husband has advanced M.S.  After battling a cough for a month, he had a chest X Ray and we were told he had pneumonia. He was on an antibotic for 10 days which ended 1 week ago today. His nurse was here halfway through the dose and said his lungs sounded clear  He has not been coughing or a temprature in over a week. This evening he started coughing, phlegm is not discolored but when he coughs there is a strange odor that I can not describe. I have never smelled an odor like this.",
+    "entities": [
+      {
+        "start": 75,
+        "end": 86,
+        "value": "chest X Ray",
+        "entity": "symptom"
+      },
+      {
+        "start": 111,
+        "end": 120,
+        "value": "pneumonia",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.5510531067848206,
+        "value": "cough",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 75,
+        "end": 86,
+        "confidence_entity": 0.9693197011947632,
+        "value": "chest X Ray",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 111,
+        "end": 120,
+        "confidence_entity": 0.9540801048278809,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 393,
+        "end": 399,
+        "confidence_entity": 0.7501005530357361,
+        "value": "coughs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am 33 years old, I was diagnosed with pneumonia almost a month ago after a short period of low grade fever and dry cough. Even after treatment with 4 courses of antibiotics dry cough has not resolved.I am having pain on the right lower side of the rib which is constant and experiencing back pain and pains all over my back and chest in a nonspecific pattern. A chest CT was performed and found subsegmental consolidatory changes in the anterior and lateral basal segments of right lower lobe with bronchial wall thickening, minimal ground glass opacification in the adjacent posterior and medial basal segments, few small mediastinal and axillary lymph nodes, plus few lymph nodes seen in the pretracheal region, few of them showing dense calcification.My last lab report from december 23rd is as followsTOTAL COUNT-7200/cummNeutrophils-70%, Lymphocytes-28%, Eosinophils-2%ESR-28 mm/hr.Still I am having fatigue, dry cough and pains. What can it be?",
+    "entities": [
+      {
+        "start": 214,
+        "end": 218,
+        "value": "pain",
+        "entity": "symptom"
+      },
+      {
+        "start": 294,
+        "end": 298,
+        "value": "pain",
+        "entity": "symptom"
+      },
+      {
+        "start": 303,
+        "end": 307,
+        "value": "pain",
+        "entity": "symptom"
+      },
+      {
+        "start": 930,
+        "end": 934,
+        "value": "pain",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 103,
+        "end": 108,
+        "confidence_entity": 0.7616530060768127,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 214,
+        "end": 218,
+        "confidence_entity": 0.9963905215263367,
+        "value": "pain",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 294,
+        "end": 298,
+        "confidence_entity": 0.9983004927635193,
+        "value": "pain",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have been sick for five weeks, I had pneumonia or bronchitis my doctor said.  Three weeks later I wasn't better so I went to doctor and had spatum test and she said I had significant ammounts of strep in my spatum.  I have chest pains and burning in my lungs, dizziness, caughing and a lot of mucus. I don't really understand what strep is and if this is serious.",
+    "entities": [
+      {
+        "start": 142,
+        "end": 153,
+        "value": "spatum test",
+        "entity": "symptom"
+      },
+      {
+        "start": 225,
+        "end": 236,
+        "value": "chest pains",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 142,
+        "end": 153,
+        "confidence_entity": 0.9829146265983582,
+        "value": "spatum test",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 209,
+        "end": 215,
+        "confidence_entity": 0.5236320495605469,
+        "value": "spatum",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 225,
+        "end": 236,
+        "confidence_entity": 0.9460825324058533,
+        "value": "chest pains",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, may I answer your health queries right now ?  Please type your query here...I had pneumonia in Aug. of 2010, then again in Oct, of same year with fluid on my lung, this past week I started with sore head eyes and ears, within 2 days I started coughing and wheezing, went to urgent care, no temp.,b/p 148/84, o2 95, wbc low,3 was given antibiotic and inhaler. I still have bouts of coughing so much I get exhausted and a lot of wheezing, the wheezing is so bad , when I go to bed I am unable to sleep, should I return to urgent care or will this get better soon, thank you so much.",
+    "entities": [
+      {
+        "start": 86,
+        "end": 95,
+        "value": "pneumonia",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 86,
+        "end": 95,
+        "confidence_entity": 0.9664000868797302,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 479,
+        "end": 482,
+        "confidence_entity": 0.7689695358276367,
+        "value": "bed",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "my son who is 19, suffered from mono last spring with a tonsillar abscess requiring hospitalization for steroid and antibiotic infusion. due to how ill he was, they did not want to remove the tonsils but recommended he have them removed when he improved. he went off to college, became ill, was diagnosed with pneumonia and still had a positive mono spot. so we were unable to schedule it for the christmas break as we planned but now he has a piece of his tonsil that is actually hanging off=it looks like the strands between his cryptic tonsil areas broke off and left this piece dangling. it is umcomfortable but i am not sure if it is emergent. no fever or c/o sore throat right now, but overall still not up to par since this continued bouts of illness.",
+    "entities": [
+      {
+        "start": 336,
+        "end": 354,
+        "value": "positive mono spot",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.6565611958503723,
+        "value": "mono",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 336,
+        "end": 354,
+        "confidence_entity": 0.9412291646003723,
+        "value": "positive mono spot",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i had a severe bout of pneumonia is Nov.  I am feeling pain in the same area of my right lung again. Am coughing a bit but do not have a cold. Did notice a little mucos over the past couple of days. could the pneumonia be back?  typcially i ma in great shape.",
+    "entities": [
+      {
+        "start": 137,
+        "end": 141,
+        "value": "cold",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 55,
+        "end": 59,
+        "confidence_entity": 0.8984604477882385,
+        "value": "pain",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 137,
+        "end": 141,
+        "confidence_entity": 0.9603127837181091,
+        "value": "cold",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi- I was diagnosed a month ago with community pneumonia. After two rounds of antibiotics I was feeling better. Now my cough is back and I have a strange heavy feeling especially in my legs. I have been exhausted too for the last few days. Could this be from pneumonia?",
+    "entities": [
+      {
+        "start": 146,
+        "end": 167,
+        "value": "strange heavy feeling",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.6174254417419434,
+        "value": "ago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 146,
+        "end": 167,
+        "confidence_entity": 0.7251752614974976,
+        "value": "strange heavy feeling",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "dear doctor my littel son 11 months when he was 2 months and 15 days he got chest infection pneumonia in the right lung and after 2 weeks of treatment in the hospital with antibiotic he discharged next day he was admitted again with new infected by pneumonia in the right lung and then doctor did some test a barium swallow and ph. the resulte GE reflux grade 4. he was with NGT and AR formula by NGT for 3 moths with zantac and Motinorm also with sitting position ,but all of those dosn t change any thing.after that when he was 5 months and 15 days he had an a laparoscopic fundoplication 5 ports, 360m degree wrap over 10fr ryles tube. he trying to vomit but he can t.I Observed every time when he trying to vomit like for 5 to 7 minutes and when he sneeze every time after trying vomit then he got back to normal after sneezing.. and he drinking now neocate formula based on free amino acid. also he is allergy with lots of food ,.",
+    "entities": [
+      {
+        "start": 563,
+        "end": 598,
+        "value": "laparoscopic fundoplication 5 ports",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 563,
+        "end": 590,
+        "confidence_entity": 0.9983667731285095,
+        "value": "laparoscopic fundoplication",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 593,
+        "end": 598,
+        "confidence_entity": 0.9978234767913818,
+        "value": "ports",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hi, My chest x-ray reveals i have a small lingular infiltrate.WBC,lymphocytes,HCT etc elevated due to infection.I had a course of augmentin duo and steroid.currently on azithromycin 250 mgs.symptoms of pneumonia still persisting.Do i need to change my treatment?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 61,
+        "value": "small lingular infiltrate",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I was recently diagnosed with Pneumonia. I had pneumonia when I was a baby but never since. I was shocked when I heard the diagnosis. The symptoms became apparent on March 28. I began taking Doxycycline Monohydrate on Monday April 3 and must take them for seven days. I am mega healthy and have not been sick in years. I can t even remember the last time I was sick. This has really knocked me out. I have zero energy and very little appetite. How does pneumonia manifest in the lung and how does bacteria get in there? How long will it be until I recover? I am really having a hard time with this. Help!",
+    "entities": [
+      {
+        "start": 47,
+        "end": 56,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 453,
+        "end": 462,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 578,
+        "end": 587,
+        "value": "hard time",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 30,
+        "end": 39,
+        "confidence_entity": 0.8561070561408997,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 47,
+        "end": 56,
+        "confidence_entity": 0.8343896269798279,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 138,
+        "end": 146,
+        "confidence_entity": 0.540819525718689,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 453,
+        "end": 462,
+        "confidence_entity": 0.8089555501937866,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 578,
+        "end": 587,
+        "confidence_entity": 0.8578066825866699,
+        "value": "hard time",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, may I answer your health queries right now ?  Please type your query here...My husband has a chest infection - a small pocket of pneumonia is in his left lobe. He is coughing up large long blood clots and also coming through his nose when blowing. Will this settle or continue.",
+    "entities": [
+      {
+        "start": 97,
+        "end": 112,
+        "value": "chest infection",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.7296702265739441,
+        "value": "right",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 97,
+        "end": 112,
+        "confidence_entity": 0.9680468440055847,
+        "value": "chest infection",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Yes I had [pneumonia](symptom) and now have Costochondritis. I am just wondering if it will ever go away. I am active and miss my workouts. Every time I try to start working out it comes back. Will I ever be able to work out again? It has been since April when I had [pneumonia](symptom) and I still am dealing with this. YYYY@YYYY.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "value": "[pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 44,
+        "end": 59,
+        "value": "Costochondritis",
+        "entity": "symptom"
+      },
+      {
+        "start": 267,
+        "end": 277,
+        "value": "[pneumonia",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 44,
+        "end": 59,
+        "confidence_entity": 0.9994632601737976,
+        "value": "Costochondritis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I went to the doctor today and found out that I have pneumonia. I got a steroid injection and breathing treatment in the office and was sent home with levaquin, albuterol, and cough medicine. My forearms and legs are very tingly and almost numb and heavy feeling. Is this from the steroid injection? I am 23 years old and I have juvenile rheumatoid arthritis so I am also taking humira, methotrexate, plaquenil, and folic acid for the RA. Is this a side effect or a drug reaction or nothing to be concerned about?",
+    "entities": [
+      {
+        "start": 53,
+        "end": 62,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 329,
+        "end": 358,
+        "value": "juvenile rheumatoid arthritis",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 53,
+        "end": 62,
+        "confidence_entity": 0.9506951570510864,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 329,
+        "end": 358,
+        "confidence_entity": 0.9571630954742432,
+        "value": "juvenile rheumatoid arthritis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 471,
+        "end": 479,
+        "confidence_entity": 0.8099074363708496,
+        "value": "reaction",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am a little concerned that I may be showing some symptoms for Coronavirus. I have had a bit of a dry cough about 2 weeks ago for 3 days. A week later I had a headache and got nauseaus. I never get headaches. My chest has felt unusual for 5 days.",
+    "entities": [
+      {
+        "start": 160,
+        "end": 168,
+        "value": "headache",
+        "entity": "symptom"
+      },
+      {
+        "start": 199,
+        "end": 207,
+        "value": "headache",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.9720109701156616,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 160,
+        "end": 168,
+        "confidence_entity": 0.9154716730117798,
+        "value": "headache",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I'm quite sure that I have Covid-19. My mother is a health worker that has been exposed. Among my symptoms is trouble breathing and pain in the chest. Can I sleep and see how I feel tomorrow or is there a risk that I'll stop breathing in the night?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 35,
+        "value": "Covid-19",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9940364360809326,
+        "value": "COVID-19",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 98,
+        "end": 106,
+        "confidence_entity": 0.893815815448761,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My 10 month old Baby Boy is scheduled to have his measles vaccination during the Lockdown. I want to know if we can wait to do his next vaccination until after this coronavirus has calmed down. I dont want to risk exposing him unnecessarily.",
+    "entities": [
+      {
+        "start": 50,
+        "end": 69,
+        "value": "measles vaccination",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 50,
+        "end": 69,
+        "confidence_entity": 0.9785649180412292,
+        "value": "measles vaccination",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 136,
+        "end": 147,
+        "confidence_entity": 0.8249227404594421,
+        "value": "vaccination",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "My 68 yr old mom is waiting for corona virus results. She’s been having fever 101-102 for a week. Was admitted to hospital and has pneumonia. How is it treated and should she stay at the hospital until her symptoms get better? She has HTN. Help!",
+    "entities": [
+      {
+        "start": 131,
+        "end": 140,
+        "value": "pneumonia",
+        "entity": "symptom"
+      },
+      {
+        "start": 235,
+        "end": 238,
+        "value": "HTN",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 72,
+        "end": 77,
+        "confidence_entity": 0.836919903755188,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 131,
+        "end": 140,
+        "confidence_entity": 0.567973792552948,
+        "value": "pneumonia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 235,
+        "end": 238,
+        "confidence_entity": 0.999595582485199,
+        "value": "HTN",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My Directors have asked me to take a COVID-19 test. But I am not sure if I just have a common cold or if I really need the test. I am monitoring my temperature which has been stable at around 37.3 or so.  I need some advice please?",
+    "entities": [
+      {
+        "start": 87,
+        "end": 98,
+        "value": "common cold",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 87,
+        "end": 98,
+        "confidence_entity": 0.9923620223999023,
+        "value": "common cold",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 123,
+        "end": 127,
+        "confidence_entity": 0.5003563761711121,
+        "value": "test",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a sore throat and I’m tired. I haven’t slept well in the last two days. Just haven’t been able to rest tossing and turning thinking - stress. Should I assume sore throats is associated with the coronavirus . Sore throat started today.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "sore throat",
+        "entity": "symptom"
+      },
+      {
+        "start": 165,
+        "end": 176,
+        "value": "sore throat",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.998603880405426,
+        "value": "sore throat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am an Ashmatic and are using my medication, my chest is tight and throught is a little bit sore, I can feel my lungs are also getting sore, when do I need to go to a doctor now with COVID 19?",
+    "entities": [
+      {
+        "start": 136,
+        "end": 140,
+        "value": "sore",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 93,
+        "end": 97,
+        "confidence_entity": 0.8180342316627502,
+        "value": "sore",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 136,
+        "end": 140,
+        "confidence_entity": 0.990041971206665,
+        "value": "sore",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Have recently been diagnosed with Fibromyalgia and a Mannose-binding lectin deficiency (low range). How likely am I to have a life threatening complications should I contract COVID19?",
+    "entities": [
+      {
+        "start": 126,
+        "end": 156,
+        "value": "life threatening complications",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 88,
+        "end": 91,
+        "confidence_entity": 0.9306460618972778,
+        "value": "low",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 126,
+        "end": 156,
+        "confidence_entity": 0.9971323013305664,
+        "value": "life threatening complications",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi I have been have a [sore throat](symptom) for almost a week now, tried gaghling with warm and apple cider vinegar, drank warm water with apple, warm with lemon.  Now I still have a [sore throat](symptom) and burning on my chest?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "[sore throat",
+        "entity": "symptom"
+      },
+      {
+        "start": 184,
+        "end": 196,
+        "value": "[sore throat",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I have not traveled. I’ve had a headache and spite cough for about a week now. My throat is getting sore. My chest feels slightly tight but I have no fever?",
+    "entities": [
+      {
+        "start": 150,
+        "end": 155,
+        "value": "fever",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.7164996862411499,
+        "value": "headache",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 150,
+        "end": 155,
+        "confidence_entity": 0.9934220910072327,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a wet cough. Stuffy nose and sometimes get a headache. I took my temperature and it is normal but my cough is starting to get worse. Painful. Someone sneezed right next to me on 14 March.?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "wet cough",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9968795776367188,
+        "value": "wet cough",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 108,
+        "end": 113,
+        "confidence_entity": 0.7821999788284302,
+        "value": "cough",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have sinusitis but only show symptoms when the weather changes or I move to a new environment. Lately I have experienced sinus irritation, a slight cough and a dry throat. These come and go. Should I be worried and go test for Covid 19?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "sinusitis",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.9994068145751953,
+        "value": "sinusitis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9058210849761963,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I've been having the same symptoms as for Corona Virus. I've had them coming along slowly for 1 week now. I haven't had direct contact with someone who has travelled overseas but I'm worried I've had indirect contact. Should I get tested?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "symptoms",
+        "entity": "symptom"
+      },
+      {
+        "start": 200,
+        "end": 216,
+        "value": "indirect contact",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9939696788787842,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.7168048620223999,
+        "value": "Corona",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 200,
+        "end": 216,
+        "confidence_entity": 0.7341257333755493,
+        "value": "indirect contact",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have been coughing and sneezing for the past 2 weeks. Throat really sore past week. Always thirsty. Diarrhea started on Friday night and vomiting since this afternoon. Have a constant fever from Wednesday. ?",
+    "entities": [
+      {
+        "start": 177,
+        "end": 191,
+        "value": "constant fever",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.42606496810913086,
+        "value": "coughing",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "symptom",
+        "start": 177,
+        "end": 191,
+        "confidence_entity": 0.9434208869934082,
+        "value": "constant fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a sour throat. I travelled to Joburg on 8 March and sat next to a passenger with a face mask and had a running stomach. I now suspect corona infection?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "sour throat",
+        "entity": "symptom"
+      },
+      {
+        "start": 110,
+        "end": 125,
+        "value": "running stomach",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9994722008705139,
+        "value": "sour throat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 110,
+        "end": 125,
+        "confidence_entity": 0.9983720183372498,
+        "value": "running stomach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 148,
+        "end": 157,
+        "confidence_entity": 0.6751089692115784,
+        "value": "infection",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "If I have fever and coughing (even blood) and I havent been outside of the country, do I have corona virus?",
+    "entities": [
+      {
+        "start": 94,
+        "end": 106,
+        "value": "corona virus",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.4365251064300537,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 94,
+        "end": 106,
+        "confidence_entity": 0.9832256436347961,
+        "value": "corona virus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I got back from Israel last Monday  I am in quarantine  My symptoms are tight chest and shortness of breath Do I need to have a test? Should I be taking any medication?",
+    "entities": [
+      {
+        "start": 128,
+        "end": 132,
+        "value": "test",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 59,
+        "end": 67,
+        "confidence_entity": 0.9403349757194519,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 128,
+        "end": 132,
+        "confidence_entity": 0.9994645714759827,
+        "value": "test",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have these symptoms and wondering if I should do a covid test Diarrhea nausea Weakness /fatigue Shortness of breath Joint n muscle pains Pressure in The chest Dizziness Sweating / and chills I don't have fever but breathing is concerning me most?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "symptoms",
+        "entity": "symptom"
+      },
+      {
+        "start": 206,
+        "end": 211,
+        "value": "fever",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9977291226387024,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.8865569233894348,
+        "value": "test",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 186,
+        "end": 192,
+        "confidence_entity": 0.9349338412284851,
+        "value": "chills",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 206,
+        "end": 211,
+        "confidence_entity": 0.9947223663330078,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi there. My 3 years old daughter had diarrhea for a couple of days and she has a fever without a cough now. Can it be COVID-19?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 46,
+        "value": "diarrhea",
+        "entity": "symptom"
+      },
+      {
+        "start": 82,
+        "end": 87,
+        "value": "fever",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.9992321729660034,
+        "value": "diarrhea",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 82,
+        "end": 87,
+        "confidence_entity": 0.9801911115646362,
+        "value": "fever",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 119,
+        "end": 127,
+        "confidence_entity": 0.7648069858551025,
+        "value": "COVID-19",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Girlfriend has coronavirus. With bad symptoms. It’s 7 days since she started symptoms, and last time I saw her. I still don’t feel symptoms. How much longer am I in the zone of possibly starting symptoms from close exposure?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "coronavirus",
+        "entity": "symptom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "symptom",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.9750881195068359,
+        "value": "Coronavirus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "symptom",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.8729706406593323,
+        "value": "symptoms",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

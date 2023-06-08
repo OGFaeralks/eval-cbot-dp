@@ -1,0 +1,63 @@
+{
+  "utter_recommend_testing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_check_symptom": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6
+  },
+  "utter_covid_message": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "utter_goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 14
+  },
+  "macro avg": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8055555555555557,
+    "f1-score": 0.8181818181818182,
+    "support": 14
+  },
+  "weighted avg": {
+    "precision": 0.9285714285714286,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8896103896103895,
+    "support": 14
+  },
+  "accuracy": 0.8571428571428571,
+  "conversation_accuracy": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "with_warnings": 0,
+    "total": 2
+  }
+}

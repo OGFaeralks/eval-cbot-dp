@@ -1,0 +1,34 @@
+version: "3.1"
+stories:
+- story: COVID-19 symptoms severity - Test 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: Is it possible for coronavirus symptoms to be mild in some cases, such as only having fatigue and a low fever, rather than severe symptoms like difficulty breathing?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Self-quarantine symptoms - Test 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: I've been self-quarantining after a flight on March 8th and have experienced headaches and a sore throat. With only two days left in my quarantine, should my symptoms be worse by now?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Self-quarantine symptoms - Test 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: Since my flight on March 8th, I've been in self-quarantine and have had a sore throat and headaches. As my quarantine is almost over, should my symptoms have worsened by now?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Self-quarantine symptoms - Test 3 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: I've been self-isolating after a plane journey on March 8th, and I've had a runny throat and headaches. With only two days left in my self-quarantine, should I expect more severe symptoms by now?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Lung pain and discomfort - Test 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: My lungs feel uncomfortable and painful, but the location keeps changing and it's not in both lungs at the same time. I have no fever, and I sneeze and cough infrequently. Do I need a coronavirus test?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Dry cough and sore throat - Test 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: I've had a dry cough and a sore throat for a week, which seems to be worsening. I don't have a runny nose or fever but sometimes experience headaches. Do I need a COVID-19 test?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Dry cough and sore throat - Test 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: My dry cough and sore throat have been persisting for a week and are getting worse. There's no fever or runny nose, but I occasionally have headaches. Should I get tested for COVID-19?
+  - action: utter_covid_info  # predicted: action_unlikely_intent
+- story: Dry cough and sore throat - Test 3 (.\tests\test_stories.yml)
+  steps:
+  - intent: covid_info  # predicted: covid_symptoms: I've been dealing with a worsening dry cough and sore throat for the past week. I don't have a fever or runny nose, but I do get headaches from time to time. Is it necessary to test for COVID-19?
+  - action: utter_covid_info  # predicted: action_unlikely_intent

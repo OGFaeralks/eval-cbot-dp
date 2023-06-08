@@ -1,0 +1,46 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- deny
+- fallback
+- goodbye
+- greet
+- inform
+- medical_questions
+- mood_great
+- mood_unhappy
+responses:
+  utter_greet:
+  - text: Hey! I am covidbot
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_covid_message:
+  - text: I am a bot that tells you if you have or dont have covid based on the symptoms that you tell me, so how are you feeling?
+  utter_ask_additional_symptoms:
+  - text: any other symptom to consider?
+  utter_recommend_testing:
+  - text: I do not find your symptoms in my database it seems that you are not sick of covid, however I always suggest to test in any case.
+actions:
+- action_check_symptom
+
+entities:
+- symptom
+slots:
+  symptom:
+    type: list
+    mappings:
+    - type: from_entity
+      entity: symptom
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
