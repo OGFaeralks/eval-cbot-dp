@@ -1,0 +1,22 @@
+{
+  "name": "botkit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a very rough implementation of BotKit",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^4.15.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "natural": "^6.3.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  }
+}
