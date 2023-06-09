@@ -6,7 +6,6 @@ def get_bleu_and_rouge(reference: str, generated: str):
     generated_tokens = generated.split()
     smoothie = SmoothingFunction().method4
     bleu_score = sentence_bleu([reference_tokens], generated_tokens, smoothing_function=smoothie)
-    
     rouge = Rouge()
     rouge_scores = rouge.get_scores(generated, reference, avg=True)
     
@@ -15,7 +14,6 @@ def get_bleu_and_rouge(reference: str, generated: str):
         "rouge-2": rouge_scores["rouge-2"]["f"],
         "rouge-l": rouge_scores["rouge-l"]["f"],
     }
-
     return bleu_score, rouge_f1_scores
 
 # Example usage
