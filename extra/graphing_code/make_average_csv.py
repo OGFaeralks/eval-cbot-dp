@@ -6,9 +6,9 @@ import pandas as pd
 # that file can then be plugged in for use in shiny.chemgrid for plotting
 
 # List of your csv files, this is an example for the Botkit + Natural measurements
-files = ['../botkit_natural_results/botkit_natural_accuracy_results_first_run.csv', 
-         '../botkit_natural_results/botkit_natural_accuracy_results_second_run.csv', 
-         '../botkit_natural_results/botkit_natural_accuracy_results_third_run.csv']
+files = ['../../results/botkit_natural_results/accuracy_refined_results/newest_botkit_results_run_1 - Sheet1.csv', 
+         '../../results/botkit_natural_results/accuracy_refined_results/newest_botkit_results_run_2 - Sheet1.csv', 
+         '../../results/botkit_natural_results/accuracy_refined_results/newest_botkit_results_run_3 - Sheet1.csv']
 
 # Read them in
 frames = [pd.read_csv(f) for f in files]

@@ -5,9 +5,17 @@ import pandas as pd
 import os
 
 # Specify the names and the locations of your csv files
-files = ['../../results/dialogpt_results/', 
-         'path/to/Chatterbot/csv/file.csv', 
-         'path/to/Botkit/csv/file.csv']
+files = [
+    '../../results/dialogpt_results/accuracy_results/dialogpt_accuracy_results_run_1.csv', 
+    '../../results/dialogpt_results/accuracy_results/dialogpt_accuracy_results_run_2.csv', 
+    '../../results/dialogpt_results/accuracy_results/dialogpt_accuracy_results_run_3.csv', 
+    '../../results/chatterbot_results/accuracy_results/chatterbot_accuracy_results_run_1.csv',
+    '../../results/chatterbot_results/accuracy_results/chatterbot_accuracy_results_run_2.csv',
+    '../../results/chatterbot_results/accuracy_results/chatterbot_accuracy_results_run_3.csv',
+    '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_results_run_1.csv',
+    '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_results_run_2',
+    '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_results_run_3.csv'
+]
 
 # Bot names
 bot_names = ['DialoGPT-based', 'Chatterbot', 'Botkit and Natural', 'Rasa']

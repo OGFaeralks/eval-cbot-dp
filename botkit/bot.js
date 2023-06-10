@@ -7,9 +7,9 @@ import natural from 'natural';
 import fs from 'fs'; 
 import { performance } from 'perf_hooks';
 
-const trainingDataFile = './training/train_data.json';
-const testingDataFile = './training/test_data.json';
-const resultsFile = './results/newest_results_accuracy_run.csv';
+const trainingDataFile = '../training/train_data.json';
+const testingDataFile = '../training/test_data.json';
+const resultsFile = './newest_results_accuracy_run_3.csv';
 
 const queries = [
     ["I'm experiencing lung pain and discomfort, but it's not constant or in the same place. I don't have a fever, and I only cough or sneeze once a day. Should I get tested for COVID-19?",
@@ -48,7 +48,7 @@ trainingData.forEach((conversation, conversationIndex) => {
 
 // Train the classifier
 classifier.train();
-// testChatbot();
+testChatbot();
 // testChatbotConsistency(queries);  
 const app = express();
 const server = app.listen(4000);
@@ -62,8 +62,8 @@ const controller = new Botkit({
 });
 
 function jaccardSimilarity(a, b) {
-  const aSet = new Set(a.split(''));
-  const bSet = new Set(b.split(''));
+  const aSet = new Set(a);
+  const bSet = new Set(b);
   const intersection = new Set([...aSet].filter(x => bSet.has(x)));
   return intersection.size / (aSet.size + bSet.size - intersection.size);
 }

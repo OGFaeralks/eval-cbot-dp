@@ -21,7 +21,7 @@ def calculate_rouge(reference, candidate):
     return scores[0]
 
 # This is just an example, please do change the name to the original Botkit and Natural generated file in order for it to work!
-df = pd.read_csv("old_accuracy.csv")
+df = pd.read_csv("../../results/botkit_natural_results/accuracy_results_new/newest_results_accuracy_run_3.csv")
 
 bleu_scores = []
 rouge_1_scores = []
@@ -42,4 +42,4 @@ df['ROUGE-1'] = rouge_1_scores
 df['ROUGE-2'] = rouge_2_scores
 df['ROUGE-L'] = rouge_l_scores
 
-df.to_csv("../../results/botkit_natural_results/", index=False)
+df.to_csv("../../results/botkit_natural_results/accuracy_refined_results/bn_acc_ref_new_3.csv", index=False)
