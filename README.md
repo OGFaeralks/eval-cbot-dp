@@ -16,4 +16,4 @@ A repository for the degree project done by Fabian and Fredric. This repository 
     - **rasa test** - Tests a trained Rasa model on any files starting with test.
 
 ## License
-This repository is under no license and the rightful licenses apply for the works used that are set by their creators.
+This repository has an MIT license, please do check it for further details!
