@@ -1,26 +1,37 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+import os
 
-# Jaccard Similarity Data
-jaccard_bot_names = ['DialoGPT-based', 'Chatterbot', 'Botkit and Natural']
-jaccard_scores = [0.130, 0.690, 0.445]
+# Specify the names and the locations of your csv files
+files = ['../../results/dialogpt_results/', 
+         'path/to/Chatterbot/csv/file.csv', 
+         'path/to/Botkit/csv/file.csv']
 
-# Response Time Data
-response_bot_names = ['DialoGPT-based', 'Chatterbot', 'Botkit and Natural', 'Rasa']
-response_times = [14.3, 0.785, 0.01, 2.1]
+# Bot names
+bot_names = ['DialoGPT-based', 'Chatterbot', 'Botkit and Natural', 'Rasa']
 
-# Create subplots
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
+# Create a list with the hard-coded value for Rasa
+response_times = [None, None, None, 2.1]
 
-# Plot Jaccard Similarity Data
-ax1.bar(jaccard_bot_names, jaccard_scores, color='b')
-ax1.set_title('Jaccard Similarity for Consistency')
-ax1.set_ylabel('Jaccard Similarity')
+# Iterate over each file
+for i, file in enumerate(files):
+    if os.path.isfile(file): # Check if file exists
+        df = pd.read_csv(file) # Read the CSV file
+
+        # Check for column name and extract response time, add to the list
+        if 'Response Time' in df.columns:
+            response_times[i] = df['Response Time'].mean()
+        elif 'Response Time (s)' in df.columns:
+            response_times[i] = df['Response Time (s)'].mean()
+
+# Create a new figure for the bar plot
+fig, ax = plt.subplots(figsize=(10, 6))
 
 # Plot Response Time Data
-ax2.bar(response_bot_names, response_times, color='r')
-ax2.set_title('Average response Time')
-ax2.set_ylabel('Response Time (seconds)')
+ax.bar(bot_names, response_times, color='r')
+ax.set_title('Average Response Time')
+ax.set_ylabel('Response Time (seconds)')
 
-# Show plots
+# Show the plot
 plt.tight_layout()
 plt.show()
