@@ -33,7 +33,7 @@ def query(payload):
     return {"generated_text": output}
 
 # Load test data
-with open("../../training/test_data.json", "r") as f:
+with open("./test_data.json", "r") as f:
     test_data = json.load(f)
 
 questions = [item[0] for item in test_data]

@@ -1,7 +1,4 @@
-import timeit
-import datetime
 import csv
-import json
 from transformers import AutoModelWithLMHead, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-Large')
@@ -13,7 +10,6 @@ def jaccard_similarity(response1, response2):
 
 def query(payload):
     bot_input_ids = tokenizer.encode(payload["inputs"]["text"] + tokenizer.eos_token, return_tensors='pt')
-
     chat_history_ids = model.generate(
       bot_input_ids, 
       max_length=100,

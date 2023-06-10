@@ -1,4 +1,9 @@
-streamlit-chat
-transformers
 streamlit
+streamlit-chat
+numpy
+nltk
+rouge
+transformers
 torch
+pandas
+json
