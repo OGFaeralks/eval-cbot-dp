@@ -25,9 +25,9 @@ file_groups = [
     (
         'Botkit and Natural',
         [
-            '../../results/botkit_natural_results/accuracy_results_new/newest_results_accuracy_run_1.csv',
-            '../../results/botkit_natural_results/accuracy_results_new/newest_results_accuracy_run_2.csv',
-            '../../results/botkit_natural_results/accuracy_results_new/newest_results_accuracy_run_3.csv',
+            '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_run_1.csv',
+            '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_run_2.csv',
+            '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_run_3.csv',
         ]
     ),
 ]

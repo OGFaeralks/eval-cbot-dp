@@ -6,9 +6,9 @@ import os
 import seaborn as sns
 
 # Specify the names of your csv files, this is an example for Botkit+Natural
-files = ['../../results/botkit_natural_results/accuracy_refined_results/bn_acc_ref_new_1.csv',
-         '../../results/botkit_natural_results/accuracy_refined_results/bn_acc_ref_new_2.csv',
-         '../../results/botkit_natural_results/accuracy_refined_results/bn_acc_ref_new_3.csv']
+files = ['../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_run_1.csv',
+         '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_run_2.csv',
+         '../../results/botkit_natural_results/accuracy_results/botkit_natural_accuracy_run_3.csv']
 
 # Specify the columns that contain numeric data
 numeric_columns = ['Jaccard Similarity', 'BLEU', 'ROUGE-1', 'ROUGE-2', 'ROUGE-L']
