@@ -1,21 +1,15 @@
-from flask import Flask, render_template, request
-from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
 import string
 import timeit
 import json
 import csv
-from datetime import datetime
-from typing import Tuple
 import pandas as pd
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
-from typing import List, Tuple
-import pandas as pd
+import requests
+from flask import Flask, render_template, request
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
+from datetime import datetime
+from typing import Tuple, List
 from chatterbot.response_selection import get_most_frequent_response
-import requests
 from bs4 import BeautifulSoup
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge import Rouge
@@ -88,11 +82,9 @@ def test_chatterbot_with_bleu_and_rouge(file_path: str, output_csv_path: str):
 def remove_punctuation(text: str) -> str:
     return text.translate(str.maketrans("", "", string.punctuation)).lower()
 
-def jaccard_similarity(a: str, b: str) -> float:
-    a = set(a.split())
-    b = set(b.split())
-    c = a.intersection(b)
-    return float(len(c)) / (len(a) + len(b) - len(c))
+def jaccard_similarity(response1, response2):
+    score = len(set(response1).intersection(response2)) / len(set(response1).union(response2))
+    return score
 
 def train_bot(bot: ChatBot, sample_data: List): 
     list_trainer = ListTrainer(bot)

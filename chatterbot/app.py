@@ -1,12 +1,10 @@
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
+from chatterbot.response_selection import get_most_frequent_response
 import json
 from typing import List, Tuple
 import pandas as pd
-from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
-from chatterbot.response_selection import get_most_frequent_response
 import requests
 from bs4 import BeautifulSoup
 
