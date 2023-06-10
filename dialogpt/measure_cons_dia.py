@@ -1,3 +1,5 @@
+__author__ = '{Fabian Dacic}'
+
 import csv
 from transformers import AutoModelWithLMHead, AutoTokenizer
 

@@ -9,7 +9,7 @@
   },
   "keywords": [
   ],
-  "author": "",
+  "author": "Fabian Dacic",
   "license": "ISC",
   "dependencies": {
     "botkit": "^4.15.0",

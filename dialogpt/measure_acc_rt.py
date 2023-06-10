@@ -1,3 +1,5 @@
+__author__ = '{Fabian Dacic}'
+
 import timeit
 import datetime
 import pandas as pd

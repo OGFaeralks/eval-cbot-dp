@@ -62,8 +62,8 @@ const controller = new Botkit({
 });
 
 function jaccardSimilarity(a, b) {
-  const aSet = new Set(a.split(' '));
-  const bSet = new Set(b.split(' '));
+  const aSet = new Set(a.split(''));
+  const bSet = new Set(b.split(''));
   const intersection = new Set([...aSet].filter(x => bSet.has(x)));
   return intersection.size / (aSet.size + bSet.size - intersection.size);
 }

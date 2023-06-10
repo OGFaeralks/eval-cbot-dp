@@ -1,3 +1,5 @@
+__author__ = '{Fabian Dacic}'
+
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge import Rouge
 

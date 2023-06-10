@@ -1,3 +1,5 @@
+__author__ = '{Fabian Dacic}'
+
 import pandas as pd
 
 # This program is more to generate a csv file of the average of all runs for accuracy,

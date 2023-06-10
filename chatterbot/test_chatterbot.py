@@ -1,3 +1,5 @@
+__author__ = '{Fabian Dacic}'
+
 import string
 import timeit
 import json
