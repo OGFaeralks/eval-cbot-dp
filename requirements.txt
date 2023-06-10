@@ -1,0 +1,16 @@
+bs4
+chatterbot>=1.0.0
+chatterbot-corpus>=1.2.0
+Flask>=1.0.0
+json
+nltk
+numpy
+matplotlib
+pandas
+rouge
+SQLAlchemy>=1.2
+streamlit
+streamlit-chat
+seaborn
+torch
+transformers
