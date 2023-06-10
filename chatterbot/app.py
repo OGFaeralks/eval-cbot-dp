@@ -10,7 +10,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-file_path_medical = "../../training/train_data.json"
+file_path_medical = "../training/train_data.json"
 
 def get_faq_from_who() -> List[Tuple[str, str]]:
     url = "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19"

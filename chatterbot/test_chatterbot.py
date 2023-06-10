@@ -16,8 +16,8 @@ from bs4 import BeautifulSoup
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge import Rouge
 
-file_path_medical_training = "../../training/train_data.json"
-file_path_medical_testing = "../../training/test_data.json"
+file_path_medical_training = "../training/train_data.json"
+file_path_medical_testing = "../training/test_data.json"
 
 def get_faq_from_who() -> List[Tuple[str, str]]:
     url = "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19"

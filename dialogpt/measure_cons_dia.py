@@ -4,7 +4,8 @@ import csv
 from transformers import AutoModelWithLMHead, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-Large')
-model = AutoModelWithLMHead.from_pretrained("../models/checkpoint-2000")
+# Here you replace the model with the path of the actual one you have fine-tuned
+model = AutoModelWithLMHead.from_pretrained("./models")
 
 def jaccard_similarity(response1, response2):
     score = len(set(response1).intersection(response2)) / len(set(response1).union(response2))

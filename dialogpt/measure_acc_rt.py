@@ -9,7 +9,8 @@ from nltk.translate.bleu_score import sentence_bleu
 from rouge import Rouge
 
 tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-Large')
-model = AutoModelWithLMHead.from_pretrained("../models/checkpoint-2000")
+# Here you replace the model with the path of the actual one you have fine-tuned
+model = AutoModelWithLMHead.from_pretrained("./models/")
 rouge = Rouge()
 
 def calculate_similarity_score(response, correct_answer):
