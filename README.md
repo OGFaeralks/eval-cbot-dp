@@ -15,6 +15,7 @@ For the training data itself, it was retrieved from these repositories:
 The files in question are ***train_data.json*** and ***test_data.json***, they must be downloaded and put in a folder to be used in relation to the applications here.
 
 Both the aforementioned repos are believed to have utilised the following the repository (which is the original) in turn: 
+
 3. https://github.com/UCSD-AI4H/COVID-Dialogue
 
 ## Botkit-related chatbot
