@@ -6,7 +6,6 @@ import json
 import csv
 import pandas as pd
 import requests
-from flask import Flask, render_template, request
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 from datetime import datetime

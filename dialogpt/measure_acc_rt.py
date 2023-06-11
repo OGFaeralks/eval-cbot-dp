@@ -19,6 +19,8 @@ def calculate_similarity_score(response, correct_answer):
     rouge_scores = rouge.get_scores(response, correct_answer)
     return jaccard_similarity, bleu_score, rouge_scores
 
+# https://huggingface.co/spaces/rushic24/DialoGPT-Covid-Help-Doctor/tree/main
+# https://github.com/rushic24/DialoGPT-Finetune
 def query(payload):
     bot_input_ids = tokenizer.encode(payload["inputs"]["text"] + tokenizer.eos_token, return_tensors='pt')
 

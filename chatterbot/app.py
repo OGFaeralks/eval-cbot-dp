@@ -85,8 +85,8 @@ corpus_trainer.train("chatterbot.corpus.english.greetings")
 conversations = load_data_from_json(file_path_medical)
 train_bot(bot, conversations)
 
+# https://github.com/chamkank/flask-chatterbot
 app = Flask(__name__)
-
 @app.route("/")
 def home():
     return render_template("index.html")
