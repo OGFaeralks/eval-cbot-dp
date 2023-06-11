@@ -19,23 +19,23 @@ Both the aforementioned repos are believed to have utilised the following the re
 3. https://github.com/UCSD-AI4H/COVID-Dialogue
 
 ## Botkit-related chatbot
-- Install Node.js: Make sure you have Node.js installed on your system. You can download and install it from the official Node.js website (https://nodejs.org).
+Install Node.js: Make sure you have Node.js installed on your system. You can download and install it from the official Node.js website (https://nodejs.org).
 
-- After Node.js has been installed in your system, navigate to the botkit folder by using the following command in the terminal:
+After Node.js has been installed in your system, navigate to the botkit folder by using the following command in the terminal:
     ```
     cd botkit
     ```
 
-- Having navigated to the botkit directory, next the packages will need to be installed and to do so, run the following command: 
+Having navigated to the botkit directory, next the packages will need to be installed and to do so, run the following command: 
     ```
     npm install
     ```
 
-- The packages being installed will allow for the application to be run, and to run the app:
+The packages being installed will allow for the application to be run, and to run the app:
     ```
     node app.js
     ```
-- Access the app: The app will start running on localhost:4000.
+Access the app: The app will start running on localhost:4000.
 
 Note: Make sure you have an active internet connection because the app relies on external resources such as Wikipedia and WHO API for fetching information. 
 
