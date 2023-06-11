@@ -53,12 +53,19 @@ That's it! You should now be able to run the app and interact with the chatbot.
 - The generateResponse function processes user input, classifies it using the trained model, and generates an appropriate response.
 
 There is also the "client-side" code in which can be found in the public folder, named client.js. This JavaScript script primarily interacts with the server through the Socket.io library and manipulates DOM elements to control the chatbot interface.
+
 **Connection**: The script first establishes a connection with the server using Socket.io.
+
 **Message Sending**: It adds an event listener to a button in the HTML with the ID 'sendButton'. When this button is clicked, it sends a message to the server with the current text value from the input element with the ID 'userInput'. It also creates a new div element in the messages container with the sent message.
+
 **Message Receiving**: It listens for messages from the server. When a message is received, it creates a new div in the messages container with the received message.
+
 **MainMenu Displaying**: A function displayMainMenu is defined to display various options for the user to choose from. When one of these options is selected, a message is sent to the server with the selected option.
+
 **Input Fields**: When an 'input' event is emitted from the server, the script creates an input field for the user to input an illness name or a question.
+
 **Option Selection**: A global function optionSelected is declared. This function is used to handle the various options that the user can select from the main menu. It sends a message to the server with the selected option and also adjusts the visibility of the input field and the send button based on the selected option.
+
 **Message Sending** (again): Another event listener is added to the 'sendButton'. When this button is clicked, it sends a 'userInput' event to the server with the current value of the input field. It also creates a new div in the messages container with the sent message.
 
 Please note that the 'removeHTMLTags' and 'summarizeText' functions are utility functions used to clean up and shorten text before displaying it in the chat. The 'emitUserMessage' function is not currently used in this script.
@@ -67,7 +74,6 @@ After the results from testing have been retrieved, considering that there is no
 
 ## Chatterbot-based chatbot 
 The Python version used in this instance is 3.8.0 (conda) although 3.7 or higher is recommended.
-
 
 ChatterBot uses built-in adapter classes to connect to different databases for storing and retrieving conversation data. By default, ChatterBot uses SQLStorageAdapter to connect to SQLite databases, but it also supports MongoDBStorageAdapter for MongoDB databases. Specify the storage adapter in the ChatBot constructor. Next, specify the logic adapters, which determine how the chatbot processes input and generates responses. ChatterBot selects the response with the highest confidence score. Examples of logic adapters include:
 
