@@ -222,6 +222,9 @@ and a webpage will be opened in which you can interact with the chatbot.
 ## Rasa-based chatbot
 To run the Rasa chatbot, first download either the [simple](https://drive.google.com/drive/folders/1pghl9Z5eFdelyP7xSqeEAnWJtrpwdibs?usp=drive_link) or [complex](https://drive.google.com/drive/folders/1_j8Ty-Kg3fEs0eC4fCoqQ9X15gCE4y4G?usp=drive_link) model. 
 
+One note: When download the simple models, please do download **archaic-alert.tar.gz** or generally the bottom one since it is the latest and 
+most fine-tuned one.
+
 In order to implement these models, to install Rasa the following python pip version was used: 21.3.1 and not the latest version because due to a new feature. Install rasa using the following command: 
 
 ``` 
